@@ -34,6 +34,7 @@
 body {
     font-family: OpenSans, Arial, sans-serif;
 	max-width: 1660px;
+
 }
 .header {
     position: relative;
@@ -480,7 +481,6 @@ body {
 .search {
 	display: flex;
 	margin-top: 68px;
-	/*margin-bottom: 60px;*/
 }
 .field {
 	height: 50px;   
@@ -716,6 +716,11 @@ body {
     font-size: 12px;
     font-weight: 700;
     color: #999999;
+}
+@media (min-width: 1200px) {
+	body {
+		margin: 0 auto;
+	}
 }
 @media (max-width: 1199px) {
 	.item-link {
