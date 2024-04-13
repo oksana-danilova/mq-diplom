@@ -34,6 +34,8 @@
 body {
     font-family: OpenSans, Arial, sans-serif;
 	max-width: 1660px;
+}
+.page {
 	margin: auto;
 }
 .header {
