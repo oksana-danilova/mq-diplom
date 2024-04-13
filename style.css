@@ -34,7 +34,7 @@
 body {
     font-family: OpenSans, Arial, sans-serif;
 	max-width: 1660px;
-
+	margin: auto;
 }
 .header {
     position: relative;
@@ -716,11 +716,6 @@ body {
     font-size: 12px;
     font-weight: 700;
     color: #999999;
-}
-@media (min-width: 1200px) {
-	body {
-		margin: auto;
-	}
 }
 @media (max-width: 1199px) {
 	.item-link {
