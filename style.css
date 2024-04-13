@@ -719,7 +719,7 @@ body {
 }
 @media (min-width: 1200px) {
 	body {
-		margin: 0 auto;
+		margin: auto;
 	}
 }
 @media (max-width: 1199px) {
