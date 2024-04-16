@@ -33,10 +33,6 @@
 }
 body {
     font-family: OpenSans, Arial, sans-serif;
-	max-width: 1660px;
-}
-.page {
-	margin: auto;
 }
 .header {
     position: relative;
@@ -241,7 +237,6 @@ body {
 .trends-wrapper {
 	display: flex;
 	flex-wrap: nowrap;
-	max-width: 1660px;
 }
 .trends-item-wrapper {
 	display: flex;
@@ -851,7 +846,7 @@ body {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: nowrap;  
-		margin: 50px auto;
+		margin: 50px 35px;
 	}
 	.post-list {
 		margin-right: 37px;
@@ -1021,7 +1016,7 @@ body {
 	}
 	.article {
 		display: block;
-		margin-top: 38px;
+		margin: 38px auto;
 	}
 	.article:after {
 		content: "";
